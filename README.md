@@ -8,7 +8,16 @@ mvn package
 mvn clean test
 make changes and again mvn clean test
 
-14.
+13.
+mvn archetype:generate
+code .
+modify codes
+open jenkins-freestyle
+build-
+cd C:\Users\Mohith\OneDrive\Desktop\raghuboss\sample
+mvn test
+
+13.
 same steps as 12 till mvn package
 in pom below build
 <plugins>
@@ -34,7 +43,7 @@ in pom below build
     </plugins>
 mvn clean test
 
-15.
+14.
 docker --version
 docker ps
 docker ps -a
