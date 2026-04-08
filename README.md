@@ -60,3 +60,7 @@ docker run -d -p 8089:80 -v vol:/usr/share/nginx/html nginx
 docker run -it -v vol:/data ubuntu bash
 echo "<h1> good </h1>" > /data/index.html
 exit
+
+19
+docker build -t java-app .
+docker run -d -t java-app
