@@ -61,6 +61,26 @@ docker run -it -v vol:/data ubuntu bash
 echo "<h1> good </h1>" > /data/index.html
 exit
 
+
+18.
+two file app.py and Dockerfile
+FROM python:3.9-slim
+
+WORKDIR /app
+
+COPY app.py .
+
+CMD ["python", "app.py"]
+
+docker build -t ram .
+docker images
+docker run ram
+login dockerhub
+docker tag ram mohithsk05/ram1:v1
+docker push mohithsk05/ram1:v1
+
+
+
 19
 docker build -t java-app .
 docker run -d -t java-app
