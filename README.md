@@ -54,7 +54,11 @@ docker run -d -p 8080:80 nginx
 docker stop 'id'
 docker rm 'id'
 
-17.
+16.
+docker build -f dockerfile -t myfir .
+docker run -p 5020:5020 myfir
+
+18.
 docker run -d nginx
 docker run -d -p 8088:80 nginx
 volume create vol
@@ -71,7 +75,7 @@ echo "<h1> good </h1>" > /data/index.html
 exit
 
 
-18.
+19.
 two file app.py and Dockerfile
 FROM python:3.9-slim
 
