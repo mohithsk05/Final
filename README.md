@@ -61,7 +61,7 @@ docker run -p 5020:5020 myfir
 docker build -t myapp .
 docker run myapp
 
-18. 
+17. 
 docker run -d nginx
 docker run -d -p 8088:80 nginx
 volume create vol
@@ -78,7 +78,7 @@ echo "<h1> good </h1>" > /data/index.html
 exit
 
 
-19. 
+18. 
 two file app.py and Dockerfile
 FROM python:3.9-slim
 
