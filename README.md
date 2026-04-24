@@ -9,13 +9,7 @@ mvn clean test
 make changes and again mvn clean test
 
 13.
-mvn archetype:generate
-code .
-modify codes
-open jenkins-freestyle
-build-
-cd C:\Users\Mohith\OneDrive\Desktop\raghuboss\sample
-mvn test
+target/*.jar
 
 14.
 same steps as 12 till mvn package
